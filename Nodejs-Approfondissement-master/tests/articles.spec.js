@@ -12,20 +12,6 @@ describe("Tester API articles", () => {
   const USER_ID = "fakeUserId";
   const ADMIN_ID = "fakeAdminId";
   const ARTICLE_ID = "fakeArticleId";
-  const MOCK_USER = {
-    _id: USER_ID,
-    name: "morgane",
-    email: "morgane@gmail.com",
-    password: "azerty123",
-    role: "member"
-  };
-  const MOCK_ADMIN = {
-    _id: ADMIN_ID,
-    name: "antoine",
-    email: "antoine@gmail.com",
-    password: "qsdf456",
-    role: "admin"
-  };
   const MOCK_ARTICLES = [
     {
       _id: ARTICLE_ID,

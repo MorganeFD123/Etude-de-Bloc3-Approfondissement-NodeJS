@@ -10,6 +10,7 @@ const articleSchema = Schema({
   status: {
     type: String,
     enum: ["draft", "published"],
+    default: "draft",
   },
 });
 
